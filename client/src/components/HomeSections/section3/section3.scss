@@ -1,0 +1,133 @@
+.mainsection{
+   height: 60vh;
+   display: flex;
+   justify-content: space-around;
+}
+.textualsection{
+  background-color: #163141;
+  height: 60vh;
+  width: 60%;
+  h1{
+   margin-top: 10vh;
+   margin-left: 30%;
+   font-size: 48px;
+   color:white;
+  }
+
+  p{
+    font-size: 20px;
+    color:white;
+    text-align:center;
+    padding: 20px;
+    margin-right: 10vh;
+  }
+  button{
+   align-items: center;
+   background-color: white;
+   border: none;
+   border-radius: 2px;
+   font-weight: bold;
+   text-align: center;
+   margin-left: 46vh;
+   margin-top: 2vh;
+   width: 15vh;
+   height: 5vh;
+  }
+ 
+}
+.nontextualsection{
+  background-color: #dcf0fd;
+  width: 40%;
+  .mainimg{
+   position: absolute;
+   top:200%;
+   left:55% ;
+   width: 30%;
+   height: 35%;
+  }
+}
+
+
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+  .mainsection {
+    flex-direction: column; /* Stack content on top of each other for tablets */
+    align-items: center; /* Center items for tablets */
+    height: auto; /* Allow the container to adjust its height */
+  }
+
+  .textualsection {
+    width: 80%; /* Adjust width for tablets */
+    padding: 20px; /* Add padding for better spacing on tablets */
+    text-align: center;
+
+    h1 {
+      margin-top: 5vh; /* Adjust margin for tablets */
+      margin-left: 0;
+      font-size: 36px; /* Adjust font size for tablets */
+    }
+
+    p {
+      font-size: 18px; /* Adjust font size for tablets */
+      margin-right: 0;
+    }
+
+    button {
+      margin-left: 0;
+      width: 100%; /* Make button full-width for tablets */
+    }
+  }
+
+  .nontextualsection {
+   // width: 80%; /* Adjust width for tablets */
+   // margin-top: 20px; /* Add margin for better spacing on tablets */
+
+    .mainimg {
+      position: static; /* Reset position for tablets */
+      width: 100%; /* Make the image full-width for tablets */
+      height: auto; /* Allow the image to adjust its height */
+    }
+  }
+
+}
+
+/* Media Query for Mobile */
+@media (max-width: 480px) {
+  .mainsection {
+    flex-direction: column; /* Stack content on top of each other for mobile */
+    align-items: center; /* Center items for mobile */
+    height: auto; /* Allow the container to adjust its height */
+  }
+
+  .textualsection {
+    width: 90%; /* Adjust width for mobile */
+    padding: 10px; /* Add padding for better spacing on mobile */
+
+    h1 {
+      margin-top: 5vh; /* Adjust margin for mobile */
+      margin-left: 0;
+      font-size: 32px; /* Adjust font size for mobile */
+    }
+
+    p {
+      font-size: 16px; /* Adjust font size for mobile */
+      margin-right: 0;
+    }
+
+    button {
+      margin-left: 0;
+      width: 100%; /* Make button full-width for mobile */
+    }
+  }
+
+  .nontextualsection {
+    width: 90%; /* Adjust width for mobile */
+    margin-top: 20px; /* Add margin for better spacing on mobile */
+
+    .mainimg {
+      position: static; /* Reset position for mobile */
+      width: 100%; /* Make the image full-width for mobile */
+      height: auto; /* Allow the image to adjust its height */
+    }
+  }
+}

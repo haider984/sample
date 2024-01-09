@@ -1,0 +1,59 @@
+.ConnectAccount {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    
+    .input-group {
+      margin-bottom: 16px;
+  
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+      }
+  
+      input {
+        width: 100%;
+        padding: 10px 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+  
+        &:disabled {
+          background-color: #f3f4f6;
+          cursor: not-allowed;
+        }
+      }
+    }
+  
+    button {
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+  
+      &:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+      }
+    }
+  
+    p {
+      margin-top: 20px;
+      color: green;
+      font-weight: bold;
+    }
+  }
+  

@@ -1,0 +1,86 @@
+.section6{
+    background-color: #dcf0f7;
+    height: auto;
+    h1{
+        color:#16314e;
+        text-align: center;
+        padding: 10vh;
+    }
+    p{
+        text-align: center;
+        color: #16314e;
+       
+    }
+    .buttonIn{
+        margin-top: 10vh;
+        input{
+            width:50vh;
+            height: 45px;
+            border: none;
+            font-size: 20px;
+            padding: 10px;
+            ::placeholder{
+                color:grey;
+            }
+        }
+        
+    }
+    .Sbutton{
+        width:25vh;
+        height:70px;
+        background-color: #16314e;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+    h1 {
+      padding: 5vh; /* Decrease padding for tablets */
+    }
+  
+    .buttonIn {
+      margin-top: 5vh; /* Decrease margin for tablets */
+    }
+  
+    input {
+      width: 100%; /* Adjust input width for tablets */
+      font-size: 18px; /* Decrease font size for tablets */
+    }
+  
+    .Sbutton {
+      width: auto; /* Adjust button width for tablets */
+      height: 60px; /* Decrease button height for tablets */
+    }
+  }
+  
+  /* Media Query for Mobile */
+  @media (max-width: 480px) {
+    h1 {
+      padding: 5vh; /* Decrease padding for mobile */
+    }
+  
+    p {
+      font-size: 16px; /* Decrease font size for mobile */
+    }
+  
+    .buttonIn {
+      margin-top: 5vh; /* Decrease margin for mobile */
+      
+    }
+  
+    input {
+      width: 40vh; /* Adjust input width for mobile */
+      font-size: 16px; /* Decrease font size for mobile */
+    }
+  
+    .Sbutton{
+        margin: 10%;
+        width:25%;
+        height:50px;
+    }
+  }

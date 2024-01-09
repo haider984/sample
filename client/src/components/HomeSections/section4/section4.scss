@@ -1,0 +1,87 @@
+.sectionstyle4{
+   background-color: white;
+   height: auto;
+   width: auto;
+   overflow: hidden;
+   color:#16314e;
+   .sectionmargin{
+      margin: 10px;
+      padding: 30px;
+   }
+  .contentsection{
+   text-align: center;
+  }
+  .slidersection{
+   margin-top: 40px;
+  }
+  .buttonContainer{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-top: 30px;
+       button{
+        height: 60px;
+        width:  200px;
+        color:white;
+        background-color: #16314e;
+        font-weight: bold;
+        cursor: pointer;
+        border-style: none;
+        border-bottom-left-radius: 20px 20px;
+        border-bottom-right-radius: 20px 20px;
+        border-top-left-radius: 20px 20px;
+       }
+  }
+}
+@media (max-width: 768px) {
+  .sectionstyle4 {
+    height: auto; /* Allow the container to adjust its height */
+  }
+
+  .sectionmargin {
+    margin: 10px;
+    padding: 20px; /* Adjust padding for tablets */
+  }
+
+  .slidersection {
+    margin-top: 20px; /* Adjust margin for tablets */
+  }
+
+  .buttonContainer {
+    flex-direction: column; /* Stack buttons vertically for tablets */
+    align-items: center;
+    margin-top: 20px; /* Adjust margin for tablets */
+
+    button {
+      width: 100%; /* Make buttons full-width for tablets */
+      margin-top: 10px; /* Add spacing between buttons */
+    }
+  }
+}
+
+/* Media Query for Mobile */
+@media (max-width: 480px) {
+  .sectionstyle4 {
+    height: auto; /* Allow the container to adjust its height */
+  }
+
+  .sectionmargin {
+    margin: 10px;
+    padding: 10px; /* Adjust padding for mobile */
+  }
+
+  .slidersection {
+    margin-top: 10px; /* Adjust margin for mobile */
+  }
+
+  .buttonContainer {
+    flex-direction: column; /* Stack buttons vertically for mobile */
+    align-items: center;
+    margin-top: 10px; /* Adjust margin for mobile */
+
+    button {
+      width: 100%; /* Make buttons full-width for mobile */
+      margin-top: 10px; /* Add spacing between buttons */
+    }
+  }
+}

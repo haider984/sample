@@ -1,0 +1,181 @@
+.commonstyle{
+  background-color: #dcf0f7;
+  height: 100vh;
+  width: auto;
+  overflow: hidden;
+  margin: 0;
+}
+.content{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 90%;
+height: 80%;
+align-items: center;
+margin-top: 100px;
+max-width: calc(100vw - 90px); /* Change width to max-width for responsiveness */
+
+gap: 5%; /* Adjust the gap between the image and the text as per your requirements */
+.textualcontent{
+  margin-left: 20px;
+  width: 600px;
+  text-align: justify;
+}
+.heading{
+  color: #16314e;
+  margin-left: 20px;
+
+}
+.sectionimg {
+  width: 500px; /* Adjust the width as per your requirements */
+  height: 500px ; /* Adjust the height as per your requirements */
+  padding: 10px;
+  overflow: hidden;
+}
+.content p {
+  margin: 15px;
+}
+p{
+  color :#16314e;
+  text-align: justify;
+  padding: 20px;
+  line-height: 150%;
+}
+.buttonlink{
+  background-color: white;
+  width: 300px;
+  padding:10px;
+  text-decoration: none;
+  color :#16314e;
+  height: 41px;
+  margin-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0.5px 1px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 300px;
+}
+.bottomimg{
+margin-left: 50px;
+margin-top: 50px;
+}
+.topicon{
+  position: absolute;
+  top: 250px;
+  right:200px;
+}
+.bottomicon{
+  position: absolute;
+  bottom: 100px;
+  
+}
+.verticalgrid{
+  position: absolute;
+  bottom:320px;
+  right: 100px;
+}
+}
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+.commonstyle {
+height: auto;
+overflow: auto;
+}
+
+.content {
+flex-direction: column;
+align-items: center;
+width: 100%;
+height: auto;
+margin-top: 50px;
+}
+
+.textualcontent {
+margin-left: 0;
+text-align: center;
+}
+
+.heading {
+margin-left: 0;
+text-align: center;
+}
+
+.sectionimg {
+max-width: 100%;
+height: auto;
+padding: 5px;
+}
+
+.content p {
+margin: 10px 0;
+text-align: center;
+}
+
+.buttonlink {
+width: 100%;
+margin: 20px 0;
+}
+
+.bottomimg {
+margin: 20px 0;
+}
+
+.topicon,
+.bottomicon,
+.verticalgrid {
+position: static;
+}
+}
+
+/* Media Query for Mobile */
+@media (max-width: 480px) {
+.commonstyle {
+height: auto;
+overflow: auto;
+}
+
+.content {
+flex-direction: column;
+align-items: center;
+width: 100%;
+height: auto;
+margin-top: 30px;
+}
+
+.textualcontent {
+margin-left: 0;
+text-align: center;
+}
+
+.heading {
+margin-left: 0;
+text-align: center;
+}
+
+.sectionimg {
+max-width: 100%;
+height: auto;
+padding: 5px;
+}
+
+.content p {
+margin: 10px 0;
+text-align: center;
+}
+
+.buttonlink {
+width: 100%;
+margin: 20px 0;
+}
+
+.bottomimg {
+margin: 20px 0;
+}
+
+.topicon,
+.bottomicon,
+.verticalgrid,.bottomimg {
+  visibility: hidden;
+}
+}

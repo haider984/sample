@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+  p{
+    font-size: 20px;
+  }
+  h1{
+     font-size: 48px;
+  }
+  h2 {
+     font-size: 35px;
+  }
+}
+@media (max-width: 768px) {
+
+  p{
+    font-size: 20px;
+  }
+  h1{
+     font-size: 48px;
+  }
+  h2 {
+     font-size: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  p{
+    font-size: 11px;
+  }
+  h1{
+     font-size: 25px;
+  }
+  h2 {
+     font-size: 20px;
+  }
+}
+
+
+     

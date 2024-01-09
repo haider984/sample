@@ -1,0 +1,13 @@
+backend is in api folder
+installations:
+npm install
+run command: npm start
+frontend is in client folder
+installations:
+npm install -f
+run command: npm run dev
+note: don't change the env files of both front end and backendex
+
+
+
+node modules installed but db not working 
